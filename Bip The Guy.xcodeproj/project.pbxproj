@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6473B0202B80A300AF8FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6473AF202B80A300AF8FBD /* AppDelegate.swift */; };
+		7C6473B2202B80A300AF8FBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6473B1202B80A300AF8FBD /* ViewController.swift */; };
+		7C6473B5202B80A300AF8FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6473B3202B80A300AF8FBD /* Main.storyboard */; };
+		7C6473B7202B80A300AF8FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6473B6202B80A300AF8FBD /* Assets.xcassets */; };
+		7C6473BA202B80A300AF8FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6473B8202B80A300AF8FBD /* LaunchScreen.storyboard */; };
+		7C6473C5202B80A400AF8FBD /* Bip_The_GuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6473C4202B80A400AF8FBD /* Bip_The_GuyTests.swift */; };
+		7C6473D0202B80A400AF8FBD /* Bip_The_GuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6473CF202B80A400AF8FBD /* Bip_The_GuyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C6473C1202B80A300AF8FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6473A4202B80A300AF8FBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6473AB202B80A300AF8FBD;
+			remoteInfo = "Bip The Guy";
+		};
+		7C6473CC202B80A400AF8FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6473A4202B80A300AF8FBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6473AB202B80A300AF8FBD;
+			remoteInfo = "Bip The Guy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C6473AC202B80A300AF8FBD /* Bip The Guy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bip The Guy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6473AF202B80A300AF8FBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C6473B1202B80A300AF8FBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C6473B4202B80A300AF8FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C6473B6202B80A300AF8FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C6473B9202B80A300AF8FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C6473BB202B80A300AF8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6473C0202B80A300AF8FBD /* Bip The GuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip The GuyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6473C4202B80A400AF8FBD /* Bip_The_GuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_The_GuyTests.swift; sourceTree = "<group>"; };
+		7C6473C6202B80A400AF8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6473CB202B80A400AF8FBD /* Bip The GuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip The GuyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6473CF202B80A400AF8FBD /* Bip_The_GuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_The_GuyUITests.swift; sourceTree = "<group>"; };
+		7C6473D1202B80A400AF8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C6473A9202B80A300AF8FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473BD202B80A300AF8FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473C8202B80A400AF8FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6473A3202B80A300AF8FBD = {
+			isa = PBXGroup;
+			children = (
+				7C6473AE202B80A300AF8FBD /* Bip The Guy */,
+				7C6473C3202B80A400AF8FBD /* Bip The GuyTests */,
+				7C6473CE202B80A400AF8FBD /* Bip The GuyUITests */,
+				7C6473AD202B80A300AF8FBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C6473AD202B80A300AF8FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C6473AC202B80A300AF8FBD /* Bip The Guy.app */,
+				7C6473C0202B80A300AF8FBD /* Bip The GuyTests.xctest */,
+				7C6473CB202B80A400AF8FBD /* Bip The GuyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C6473AE202B80A300AF8FBD /* Bip The Guy */ = {
+			isa = PBXGroup;
+			children = (
+				7C6473AF202B80A300AF8FBD /* AppDelegate.swift */,
+				7C6473B1202B80A300AF8FBD /* ViewController.swift */,
+				7C6473B3202B80A300AF8FBD /* Main.storyboard */,
+				7C6473B6202B80A300AF8FBD /* Assets.xcassets */,
+				7C6473B8202B80A300AF8FBD /* LaunchScreen.storyboard */,
+				7C6473BB202B80A300AF8FBD /* Info.plist */,
+			);
+			path = "Bip The Guy";
+			sourceTree = "<group>";
+		};
+		7C6473C3202B80A400AF8FBD /* Bip The GuyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6473C4202B80A400AF8FBD /* Bip_The_GuyTests.swift */,
+				7C6473C6202B80A400AF8FBD /* Info.plist */,
+			);
+			path = "Bip The GuyTests";
+			sourceTree = "<group>";
+		};
+		7C6473CE202B80A400AF8FBD /* Bip The GuyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6473CF202B80A400AF8FBD /* Bip_The_GuyUITests.swift */,
+				7C6473D1202B80A400AF8FBD /* Info.plist */,
+			);
+			path = "Bip The GuyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C6473AB202B80A300AF8FBD /* Bip The Guy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6473D4202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The Guy" */;
+			buildPhases = (
+				7C6473A8202B80A300AF8FBD /* Sources */,
+				7C6473A9202B80A300AF8FBD /* Frameworks */,
+				7C6473AA202B80A300AF8FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bip The Guy";
+			productName = "Bip The Guy";
+			productReference = 7C6473AC202B80A300AF8FBD /* Bip The Guy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C6473BF202B80A300AF8FBD /* Bip The GuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6473D7202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The GuyTests" */;
+			buildPhases = (
+				7C6473BC202B80A300AF8FBD /* Sources */,
+				7C6473BD202B80A300AF8FBD /* Frameworks */,
+				7C6473BE202B80A300AF8FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6473C2202B80A300AF8FBD /* PBXTargetDependency */,
+			);
+			name = "Bip The GuyTests";
+			productName = "Bip The GuyTests";
+			productReference = 7C6473C0202B80A300AF8FBD /* Bip The GuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C6473CA202B80A400AF8FBD /* Bip The GuyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6473DA202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The GuyUITests" */;
+			buildPhases = (
+				7C6473C7202B80A400AF8FBD /* Sources */,
+				7C6473C8202B80A400AF8FBD /* Frameworks */,
+				7C6473C9202B80A400AF8FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6473CD202B80A400AF8FBD /* PBXTargetDependency */,
+			);
+			name = "Bip The GuyUITests";
+			productName = "Bip The GuyUITests";
+			productReference = 7C6473CB202B80A400AF8FBD /* Bip The GuyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6473A4202B80A300AF8FBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Newlove;
+				TargetAttributes = {
+					7C6473AB202B80A300AF8FBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7C6473BF202B80A300AF8FBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C6473AB202B80A300AF8FBD;
+					};
+					7C6473CA202B80A400AF8FBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C6473AB202B80A300AF8FBD;
+					};
+				};
+			};
+			buildConfigurationList = 7C6473A7202B80A300AF8FBD /* Build configuration list for PBXProject "Bip The Guy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C6473A3202B80A300AF8FBD;
+			productRefGroup = 7C6473AD202B80A300AF8FBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C6473AB202B80A300AF8FBD /* Bip The Guy */,
+				7C6473BF202B80A300AF8FBD /* Bip The GuyTests */,
+				7C6473CA202B80A400AF8FBD /* Bip The GuyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C6473AA202B80A300AF8FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6473BA202B80A300AF8FBD /* LaunchScreen.storyboard in Resources */,
+				7C6473B7202B80A300AF8FBD /* Assets.xcassets in Resources */,
+				7C6473B5202B80A300AF8FBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473BE202B80A300AF8FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473C9202B80A400AF8FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6473A8202B80A300AF8FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6473B2202B80A300AF8FBD /* ViewController.swift in Sources */,
+				7C6473B0202B80A300AF8FBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473BC202B80A300AF8FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6473C5202B80A400AF8FBD /* Bip_The_GuyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6473C7202B80A400AF8FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6473D0202B80A400AF8FBD /* Bip_The_GuyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C6473C2202B80A300AF8FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6473AB202B80A300AF8FBD /* Bip The Guy */;
+			targetProxy = 7C6473C1202B80A300AF8FBD /* PBXContainerItemProxy */;
+		};
+		7C6473CD202B80A400AF8FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6473AB202B80A300AF8FBD /* Bip The Guy */;
+			targetProxy = 7C6473CC202B80A400AF8FBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C6473B3202B80A300AF8FBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6473B4202B80A300AF8FBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C6473B8202B80A300AF8FBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6473B9202B80A300AF8FBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C6473D2202B80A400AF8FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C6473D3202B80A400AF8FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C6473D5202B80A400AF8FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C6473D6202B80A400AF8FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C6473D8202B80A400AF8FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip The Guy.app/Bip The Guy";
+			};
+			name = Debug;
+		};
+		7C6473D9202B80A400AF8FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip The Guy.app/Bip The Guy";
+			};
+			name = Release;
+		};
+		7C6473DB202B80A400AF8FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The GuyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-GuyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bip The Guy";
+			};
+			name = Debug;
+		};
+		7C6473DC202B80A400AF8FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9UF7E66B;
+				INFOPLIST_FILE = "Bip The GuyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "comm.newlove.Bip-The-GuyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bip The Guy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C6473A7202B80A300AF8FBD /* Build configuration list for PBXProject "Bip The Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6473D2202B80A400AF8FBD /* Debug */,
+				7C6473D3202B80A400AF8FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6473D4202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6473D5202B80A400AF8FBD /* Debug */,
+				7C6473D6202B80A400AF8FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6473D7202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The GuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6473D8202B80A400AF8FBD /* Debug */,
+				7C6473D9202B80A400AF8FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6473DA202B80A400AF8FBD /* Build configuration list for PBXNativeTarget "Bip The GuyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6473DB202B80A400AF8FBD /* Debug */,
+				7C6473DC202B80A400AF8FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6473A4202B80A300AF8FBD /* Project object */;
+}
